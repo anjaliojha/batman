@@ -1,7 +1,7 @@
 class Umbrella {
     constructor (x,y){
         var options = {
-            isStatic = true
+            isStatic : true
         }
         this.umbrella = Bodies.cirlce(x,y,50,options)
         this.radius = 50
